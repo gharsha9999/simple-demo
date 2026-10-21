@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 330">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10172a"/><stop offset=".55" stop-color="#48251f"/><stop offset="1" stop-color="#071629"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ff8c43" stop-opacity=".9"/><stop offset="1" stop-color="#ff8c43" stop-opacity="0"/></radialGradient>
+ <linearGradient id="bucket" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#9b2027"/><stop offset=".5" stop-color="#f9e7c4"/><stop offset="1" stop-color="#a51c24"/></linearGradient>
+</defs>
+<rect width="900" height="330" fill="url(#bg)"/>
+<circle cx="650" cy="90" r="130" fill="url(#glow)"/><circle cx="470" cy="70" r="18" fill="#e25b31" opacity=".4"/><circle cx="800" cy="48" r="12" fill="#ffb064" opacity=".6"/><circle cx="520" cy="180" r="10" fill="#ffb064" opacity=".45"/>
+<g opacity=".55" transform="translate(390 150)"><circle r="105" fill="#101827" stroke="#758096" stroke-width="13"/><circle r="76" fill="none" stroke="#758096" stroke-width="4"/><circle r="24" fill="#758096"/><circle cx="0" cy="-54" r="15" fill="#263447"/><circle cx="47" cy="-27" r="15" fill="#263447"/><circle cx="47" cy="27" r="15" fill="#263447"/><circle cx="0" cy="54" r="15" fill="#263447"/><circle cx="-47" cy="27" r="15" fill="#263447"/><circle cx="-47" cy="-27" r="15" fill="#263447"/></g>
+<g transform="translate(560 60)">
+ <path d="M0 65 Q5 40 22 48 L170 48 Q190 45 195 65 L180 235 L20 235Z" fill="url(#bucket)" stroke="#f5c1a2" stroke-width="3"/>
+ <path d="M60 52 L75 235 M125 52 L140 235" stroke="#f8e9d1" stroke-width="18" opacity=".95"/>
+ <g fill="#fff0c9" stroke="#e8b66e" stroke-width="2"><ellipse cx="22" cy="46" rx="28" ry="27"/><ellipse cx="57" cy="29" rx="28" ry="28"/><ellipse cx="91" cy="39" rx="27" ry="26"/><ellipse cx="126" cy="25" rx="28" ry="28"/><ellipse cx="157" cy="42" rx="28" ry="27"/><ellipse cx="183" cy="52" rx="22" ry="24"/><ellipse cx="38" cy="14" rx="24" ry="22"/><ellipse cx="93" cy="8" rx="24" ry="22"/><ellipse cx="144" cy="8" rx="24" ry="22"/></g>
+ <g fill="#f7cf82"><circle cx="28" cy="35" r="4"/><circle cx="83" cy="26" r="4"/><circle cx="135" cy="35" r="4"/><circle cx="165" cy="53" r="4"/></g>
+</g>
+<g transform="translate(700 145) rotate(-12)">
+ <path d="M0 30 L180 0 L192 32 L12 62Z" fill="#111b29" stroke="#8190a2" stroke-width="3"/>
+ <path d="M12 62 L192 32 L180 145 L0 175Z" fill="#0b1421" stroke="#8190a2" stroke-width="3"/>
+ <path d="M28 83 L164 60 M24 108 L160 85 M20 132 L156 109" stroke="#5d6c7c" stroke-width="2"/>
+ <path d="M30 22 L46 53 M72 15 L88 46 M114 8 L130 39 M156 2 L172 32" stroke="#d6dde4" stroke-width="8"/>
+</g>
+</svg>
