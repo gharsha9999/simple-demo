@@ -38,3 +38,7 @@ Then copy the files into `/var/www/html/` and allow inbound TCP port 80 in the s
 
 ## Demo limitation
 Wishlist and Completed selections are held in JavaScript memory only. They reset when the page is refreshed. This is intentional for a frontend-only demo.
+=======
+# simple-demo
+Deploy a simple static website on AWS Server
+>>>>>>> 816630658189d9dc928858fbb33741fdd78d5b5c
